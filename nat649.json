@@ -1,0 +1,45 @@
+{
+  "name": "nat649",
+  "subtitle": "A source for all of my apps",
+  "description": "Welcome to my source! Here you'll find all of my apps.",
+  "iconURL": "https://i.imgur.com/5RRDuPP.png",
+  "website": "",
+  "patreonURL": "",
+  "tintColor": "#6156e2",
+  "featuredApps": [
+    "natinc.cpuY"
+  ],
+  "apps": [
+    {
+      "name": "cpuY",
+      "bundleIdentifier": "natinc.cpuY",
+      "marketplaceID": "",
+      "developerName": "Example Developer",
+      "subtitle": "An awesome app.",
+      "localizedDescription": "This is an awesome app only available on AltStore.",
+      "iconURL": "https://i.imgur.com/1yzOJ3E.png",
+      "tintColor": "#7c3444",
+      "category": "other",
+      "screenshots": [],
+      "versions": [],
+      "appPermissions": {
+        "entitlements": [],
+        "privacy": {}
+      },
+      "patreon": {}
+    }
+  ],
+  "news": [
+    {
+      "title": " Announcement",
+      "identifier": "news_ts56w1xww0",
+      "caption": "Introducing cpuY NOW on altstore",
+      "date": "2025-10-29T13:33",
+      "tintColor": "#6156e2",
+      "imageURL": "",
+      "notify": true,
+      "url": "",
+      "appID": "natinc.cpuY"
+    }
+  ]
+}
