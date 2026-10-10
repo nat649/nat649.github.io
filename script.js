@@ -359,7 +359,7 @@ async function fetchTwitter() {
             <h3><i class=\"fab fa-twitter\"></i> Derniers Tweets</h3>
             <a class=\"twitter-timeline\" data-width=\"100%\" data-height=\"400\" 
                data-theme=\"${document.documentElement.getAttribute('data-theme') === 'light' ? 'light' : 'dark'}\" 
-               href=\"https://twitter.com/nat649\">Tweets by nat649</a>
+               href=\"https://twitter.com/czg44c5bby\">Tweets by nat649</a>
         `;
         if (window.twttr && window.twttr.widgets) {
             window.twttr.widgets.load();
