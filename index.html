@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>nat649 - Portfolio GitHub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="profile-header">
+                <img src="https://github.com/nat649.png" alt="nat649" class="profile-avatar" id="avatar">
+                <div class="profile-info">
+                    <h1 id="name">nat649</h1>
+                    <p id="bio">Chargement...</p>
+                    <div class="profile-stats">
+                        <div class="stat">
+                            <i class="fas fa-users"></i>
+                            <span id="followers">0</span> followers
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-code-branch"></i>
+                            <span id="following">0</span> following
+                        </div>
+                        <div class="stat">
+                            <i class="fas fa-star"></i>
+                            <span id="stars">0</span> stars
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="repositories" class="section">
+            <div class="container">
+                <h2><i class="fas fa-folder-open"></i> Mes Repositories</h2>
+                <div class="repo-grid" id="repos-container">
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Chargement des repositories...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages" class="section">
+            <div class="container">
+                <h2><i class="fas fa-code"></i> Langages Utilisés</h2>
+                <div class="languages-chart" id="languages-container">
+                    <div class="loading">
+                        <i class="fas fa-spinner fa-spin"></i>
+                        <p>Chargement des langages...</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="stats" class="section">
+            <div class="container">
+                <h2><i class="fas fa-chart-line"></i> Statistiques</h2>
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-folder"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Repositories</h3>
+                            <p id="total-repos">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Stars Totales</h3>
+                            <p id="total-stars">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code-branch"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Forks</h3>
+                            <p id="total-forks">0</p>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-info">
+                            <h3>Langages</h3>
+                            <p id="total-languages">0</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>Créé pour <a href="https://github.com/nat649" target="_blank">nat649</a></p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
